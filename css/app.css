@@ -1,0 +1,336 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%}/*1rem=10px*/
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/*----------------------Globales----------------------------*/
+h1 , h2, h3{
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+     font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+/*---------------------utilidades-------------------------*/
+.text-center{
+    text-align: center;
+}
+.max-width-30{
+     max-width: 30rem;
+}
+/*///////////////////////////////////////////////////////  Hero  ////////////////////////////////////////////////////////////*/
+header nav .head{
+    text-decoration: none;
+    color: #000;
+    font-size:2rem;
+    font-weight: 600;
+}
+
+header nav .menu{
+    color: #787373;
+}
+header nav .icono{
+    color: #787373;
+}
+
+header .navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem 2rem 0;
+    padding: 1.2rem 10rem;
+}
+
+header .imagen-hero{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 61.5rem;
+}
+
+section .mi-trabajo{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 55rem;
+}
+
+.mi-trabajo a{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/*-------------------------------------------------------------Menu--------------------------------------------------------------*/
+
+header nav .head2{
+    text-decoration: none;
+    color: #787373;
+    font-size:2rem;
+    font-weight: 600;
+}
+hr{
+    padding: 0;
+    margin: 0;
+    color: #787373;
+}
+.contenedor-line{
+    display: flex;
+    justify-content: center;
+}
+.vertical-line{
+    width: .1rem;
+    background: #787373;
+    height: 60rem;
+    padding: 0;
+    margin: 0;
+}
+section .mi-trabajo2{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 55rem;
+}
+.mi-trabajo2 a{
+    color: #787373;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+
+/*------------------------------------------------Diseñador y Desartrollador web-------------------------------------------------------*/ 
+.negro{
+    background: #000;
+    height: 100rem;
+}
+/*//////////////////////////Contenedor////////////////////*/
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.dis h1{
+    font-size: 5rem;
+    color: #fff;
+    margin-top: 25rem;
+    margin-left:10rem; ;
+}
+.dis p{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 10rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.img-dis{
+    width: 77.3rem;
+    height: 50.5rem;
+    margin-top: 12rem;
+}
+
+.arrow{
+    color: #fff;
+    padding-left: 2rem;
+    font-size: 3rem;
+}
+ .arrow:hover{
+     font-size: 4rem;
+ }
+
+/*//////////////////////////////////////////////Responsabilidad////////////////////////////////////////*/
+
+.responsabilidad{
+    background: #CB997E;
+    height: 100rem;
+}
+.res-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.res-contenedor img{
+    width: 80rem;
+    height: 50.5rem;
+    margin-top: 18rem;
+    margin-right: 12rem;
+}
+
+.res h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 20rem;
+    margin-left: 11rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.res p{
+    color: #787373;
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin-top: 0;
+    margin-left: 10rem;
+    margin-bottom: 0;
+    line-height: 7rem;
+}
+
+/****************************************************************************creatividad***************************************************************/
+
+.creatividad{
+    background: #6B705C;
+    height: 100rem;
+}
+.cre-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cre-contenedor img{
+    width: 60rem;
+    height: 65rem;
+    margin-top: 18rem;
+    margin-right: 12rem;
+}
+
+.cre h2{
+    color: #CB997E;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 20rem;
+    margin-left: 11rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.cre p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin-top: 0;
+    margin-left: 10rem;
+    margin-bottom: 0;
+    line-height: 7rem;
+}
+
+
+
+/*------------------------Contacto-------------------------------*/
+.contenido-principal{
+    margin-bottom: 20rem;
+}
+main .pregunta{
+    text-align: center;
+    color: #01497c;
+    font-size: 3rem;
+}
+
+
+.formulario{
+    max-width: 53rem;
+    max-height: 38rem ;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+   column-gap: 2rem;
+
+}
+
+.campo{
+    margin: 1rem 0;
+    line-height: 3;
+    border-radius: .5rem; 
+    font-size: 1.8rem;
+}
+.campo .area{
+   max-width: fit-content;
+    max-height: max-content;
+}
+.boton{
+    background: none;
+    padding: 2rem;
+    color: #01497c;
+    border: 1px solid #01497c;
+    border-radius: .5rem;
+    display: flex;
+    margin: 0 0rem 0 38rem ;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.boton:hover{
+    background: #01497c;
+    color: #fff;
+    cursor: pointer;
+  
+}
+
+
+/*            ----------------------------------------------------FOOTER--------------------------------            */
+footer{
+    height: 30rem;
+}
+.redes-sociales{
+    background: #000;
+    height: 100%;
+    padding-top: 7rem;
+}
+footer .redes-sociales a{
+    color: #fff;
+    text-align: center;
+    width: 10rem;
+    display: block;
+    padding: 1.5rem 0;
+    border-radius: .3rem;
+    font-size: 4rem;
+}  
+.contenedor-redes .linkedin{
+   background-color: #005485;
+}
+.contenedor-redes .facebook{
+    background-color: #1877f2;
+ }
+ .contenedor-redes .facebook{
+    background-color: #1877f2;
+ }
+ .contenedor-redes .gmail{
+    background-color: #ea4335;
+ }
+ .contenedor-redes .github{
+    background-color: #6e5494;
+ }
+.contenedor-redes{
+    display: flex;
+    justify-content: space-around;
+} 
+footer .derechosReservados p{
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+}
+footer p .azulFooter{
+    color: #0077B5;
+}
